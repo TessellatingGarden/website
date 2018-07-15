@@ -1,6 +1,5 @@
 "use strict";
-"use strict";
-var port = 3000
+var port = 3000;
 const pug = require('pug');
 const express = require('express');
 const app = express();
