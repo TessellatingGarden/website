@@ -1,4 +1,5 @@
 "use strict";
+"use strict";
 var port = 3000
 const pug = require('pug');
 const express = require('express');
@@ -11,3 +12,7 @@ app.get('/', function(req, res){
 });
 
 app.listen(port, () => console.log('Tesselating gardens listening on ' + port));
+
+}
+
+app.listen(3000)

@@ -1,0 +1,11 @@
+.imgWrapper{
+  background-image: mainImage.png;
+
+}
+body{
+  font: Raleway
+}
+.vewNav{
+  display: inline-block;
+  font-weight: 400;
+}
