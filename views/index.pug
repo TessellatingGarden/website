@@ -1,19 +1,20 @@
 html
   head
   link(href='https://fonts.googleapis.com/css?family=Raleway' rel ='stylesheet')
-  link(rel='stylesheet' type='text/css' href='/css/style.css')
+  link(rel='stylesheet', href='./css/style.css', type='text/css')
+  title= 'Tesselating Gardens'
   body
-    .imgWrapper
-       .viewLogoWrapper
-         a(href='/index')
-           img.mainlogo(src='img/mainLogo.png')
-    .viewNavWrapper
-        ul.viwNav
+    .viewNavBar
+      .mainLogoWrapper
+        a(href='/index')
+          img.mainlogo(src='img/mainLogo.png')
+      .viewNavWrapper
+        ul.viewNav
           li.viewNavItem
-            a(href='/mission') Our Mission
+            a.viewNavText(href='/mission') Our Mission
           li.viewNavItem
-            a(href='/gallery') Gallery
+            a.viewNavText(href='/gallery') Gallery
           li.viewNavItem
-            a(href='/about') About Us
+            a.viewNavText(href='/about') About Us
     .textWrapper
-        p= 'Cleaning the Charles river and beautifying the community'
+      p= 'Cleaning the Charles river and beautifying the community'

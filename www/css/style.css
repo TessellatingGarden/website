@@ -1,0 +1,53 @@
+
+body{
+  height: 100%;
+  overflow: hidden;
+  font-family: Raleway;
+  background-image: url('../img/mainImage.png');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: none;
+}
+.viewNav{
+  display: inline;
+   font: Raleway;
+  font-weight: 400;
+  padding: 10px;
+  background-size: cover; */
+}
+.viewNavItem{
+  display: inline;
+  padding: 5px;
+  list-style: none;
+}
+.viewLogoWrapper{
+  display: inline;
+}
+.viewNavText{
+  font: Raleway;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 150%;
+  border: 5%;
+  color: #ffffff;
+}
+.mainLogo{
+  display: inline-flex;
+}
+.viewNavWrapper{
+  display: inline-flex;
+  float: right;
+  margin-right: 2%;
+}
+.mainLogoWrapper{
+  display: inline-flex;
+}
+.textWrapper{
+  margin-left: 3%;
+  position: absolute;
+  margin-bottom: 2%;
+  bottom: 30px;
+  font-size: 130%
+}
