@@ -11,7 +11,3 @@ app.get('/', function(req, res){
 });
 
 app.listen(port, () => console.log('Tesselating gardens listening on ' + port));
-
-}
-
-app.listen(3000)
