@@ -1,36 +1,48 @@
-.body{
+
+body{
+  height: 100%;
+  overflow: hidden;
   font-family: Raleway;
+  background-image: url('../img/mainImage.png');
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-style: none;
 }
-.Nav{
+.viewNav{
   display: inline;
-   font-family: Raleway;
+   font: Raleway;
   font-weight: 400;
   padding: 10px;
   background-size: cover; */
 }
-.NavItem{
+.viewNavItem{
   display: inline;
   padding: 5px;
   list-style: none;
 }
-.LogoWrapper{
-  display: inline-flex;
+.viewLogoWrapper{
+  display: inline;
 }
-.NavText{
+.viewNavText{
   font: Raleway;
   font-weight: 400;
   text-decoration: none;
   font-size: 150%;
   border: 5%;
-  color: #000000;
+  color: #ffffff;
 }
 .mainLogo{
   display: inline-flex;
 }
-.NavWrapper{
+.viewNavWrapper{
   display: inline-flex;
   float: right;
   margin-right: 2%;
+}
+.mainLogoWrapper{
+  display: inline-flex;
 }
 .textWrapper{
   margin-left: 3%;
@@ -38,14 +50,4 @@
   margin-bottom: 2%;
   bottom: 30px;
   font-size: 130%
-}
-.bodyWrapper{
-  font-family: Raleway;
-  font-size: 200%
-}
-.title{
-  font-weight: 500;
-}
-.text{
-  font-weight: 300;
 }

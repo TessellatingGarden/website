@@ -4,7 +4,7 @@ const pug = require('pug');
 const express = require('express');
 const app = express();
 
-const port = 3000;
+const port = 2000;
 
 app.set('view engine','pug');
 app.use(express.static('www'));
@@ -15,5 +15,4 @@ app.get('/about', (req, res) => res.render("about"))
 app.get('/gallery', (req, res) => res.render("gallery"))
 app.get('/mission', (req, res) => res.render("mission"))
 
-
-app.listen(port, () => console.log('Tesselating gardens listening on ' + port));
+app.listen(port, console.log("tessellating gardens is listening on port "+ port));
