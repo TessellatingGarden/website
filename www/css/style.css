@@ -24,28 +24,30 @@
   border: 5%;
   color: #000000;
 }
-.mainLogo{
-  display: inline-flex;
-}
 .NavWrapper{
   display: inline-flex;
   float: right;
   margin-right: 2%;
-}
-.textWrapper{
-  margin-left: 3%;
-  position: absolute;
-  margin-bottom: 2%;
-  bottom: 30px;
-  font-size: 130%
 }
 .bodyWrapper{
   font-family: Raleway;
   font-size: 200%
 }
 .title{
-  font-weight: 500;
+  font-weight: 300;
 }
 .text{
+  font-family: Raleway;
   font-weight: 300;
+}
+.headshot{
+  width: 30%;
+}
+.bio{
+  list-style: none;
+  display: inline-block;
+}
+.name{
+  font-family: Raleway;
+  font-weight: 500;
 }
