@@ -34,20 +34,32 @@
   font-size: 200%
 }
 .title{
+  font-family: Raleway;
   font-weight: 300;
 }
 .text{
   font-family: Raleway;
   font-weight: 300;
+  text-align: justify;
 }
 .headshot{
-  width: 30%;
+  width: 100%;
 }
-.bio{
+.bioW{
   list-style: none;
   display: inline-block;
+}
+.bio{
+  display: inline-block;
+  width: 30vw;
+  padding: 1vh
 }
 .name{
   font-family: Raleway;
   font-weight: 500;
+}
+.bios{
+  margin: 0 auto;
+  padding: 0;
+
 }

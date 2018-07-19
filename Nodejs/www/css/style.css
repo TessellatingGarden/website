@@ -1,0 +1,65 @@
+.body{
+  font-family: Raleway;
+}
+.Nav{
+  display: inline;
+   font-family: Raleway;
+  font-weight: 400;
+  padding: 10px;
+  background-size: cover; */
+}
+.NavItem{
+  display: inline;
+  padding: 5px;
+  list-style: none;
+}
+.LogoWrapper{
+  display: inline-flex;
+}
+.NavText{
+  font: Raleway;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 150%;
+  border: 5%;
+  color: #000000;
+}
+.NavWrapper{
+  display: inline-flex;
+  float: right;
+  margin-right: 2%;
+}
+.bodyWrapper{
+  font-family: Raleway;
+  font-size: 200%
+}
+.title{
+  font-family: Raleway;
+  font-weight: 300;
+}
+.text{
+  font-family: Raleway;
+  font-weight: 300;
+  text-align: justify;
+}
+.headshot{
+  width: 100%;
+}
+.bioW{
+  list-style: none;
+  display: inline-block;
+}
+.bio{
+  display: inline-block;
+  width: 30vw;
+  padding: 1vh
+}
+.name{
+  font-family: Raleway;
+  font-weight: 500;
+}
+.bios{
+  margin: 0 auto;
+  padding: 0;
+
+}

@@ -1,0 +1,22 @@
+.galleryImage{
+  width: 500px;
+  padding: 5px
+}
+.cell{
+  padding: 10px
+}
+.image{
+display: inline-block;
+}
+.images{
+  margin: auto
+  padding: 0;
+  list-style: none;
+}
+.imageWrapper{
+  margin: 0;
+  padding: 1vw;
+}
+.galleryWrapper{
+  margin: auto;
+}
