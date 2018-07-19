@@ -1,14 +1,14 @@
 .body{
   font-family: Raleway;
 }
-.Nav{
+.nav{
   display: inline;
    font-family: Raleway;
   font-weight: 400;
   padding: 10px;
   background-size: cover; */
 }
-.NavItem{
+.navItem{
   display: inline;
   padding: 5px;
   list-style: none;
@@ -16,7 +16,7 @@
 .LogoWrapper{
   display: inline-flex;
 }
-.NavText{
+.navText{
   font: Raleway;
   font-weight: 400;
   text-decoration: none;
@@ -24,7 +24,7 @@
   border: 5%;
   color: #000000;
 }
-.NavWrapper{
+.navWrapper{
   display: inline-flex;
   float: right;
   margin-right: 2%;
